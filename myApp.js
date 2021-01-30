@@ -94,7 +94,7 @@ async function findFFF(collection) {
 
 switch (Number(process.argv[2])) {
     case 1:
-        console.log('creage db')
+        console.log('to create a table you need to add user')
         break;
     case 2:
         run(addUser)
@@ -110,7 +110,7 @@ switch (Number(process.argv[2])) {
         break
     default:
         console.log(`
-            1: create table
+            1: create a table
             2: add an user
             3: get all users
             4: generate many users
